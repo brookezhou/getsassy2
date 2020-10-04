@@ -1,0 +1,9 @@
+@import"./variables";
+@import"./header";
+
+.contact {
+    @extend header; /*using the extend function inherits the properties that are set in a different section*/
+    background: lightcoral; /*make additional changes to overwrite the properties carried over from the header*/
+    background: rgb(168,58,58); /*style sheets work from up to down, so everything below can overwrite what's written above of it*/
+    width: 100%-20%;
+} 
